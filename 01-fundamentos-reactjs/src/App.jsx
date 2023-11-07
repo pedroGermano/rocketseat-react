@@ -1,10 +1,14 @@
 import { Post } from "./Post";
 
+import './global.css'
+
 export function App() {
   return (
     <>
-      <h1>Hello</h1>
-      <Post />
+      <Post 
+        author="Pedro Germano"
+        content="lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
+      />
     </>
   );
 }

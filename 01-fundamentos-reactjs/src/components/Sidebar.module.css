@@ -45,5 +45,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all .2s ease;
   
+}
+
+.sidebar footer a:hover{
+  background: var(--green-500);
+  color: var(--white);
 }

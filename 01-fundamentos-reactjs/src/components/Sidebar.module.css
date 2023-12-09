@@ -21,6 +21,7 @@
   width:  calc(3rem + 12px);
   height: calc(3rem + 12px);
   border-radius: 0.625rem;
+  margin-bottom: 1.2rem;
   border: 0.25rem solid var(--gray-800);
   outline: 0.125rem solid var(--green-500);
 }
@@ -52,4 +53,5 @@
 .sidebar footer a:hover{
   background: var(--green-500);
   color: var(--white);
+  cursor: pointer;
 }

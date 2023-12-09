@@ -24,11 +24,11 @@ export function Post() {
           no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀
         </p>
         <p>
-          <a href="#">👉{' '}jane.design/doctorcare</a>
+          <a href="#">👉 jane.design/doctorcare</a>
         </p>
         <p>
-          <a href="#">#novoprojeto</a>{' '}
-          <a href="#">#nlw</a>{' '}
+          <a href="#">#novoprojeto</a>{" "}
+          <a href="#">#nlw</a>{" "}
           <a href="#">#rocketseat</a>
         </p>
       </div>

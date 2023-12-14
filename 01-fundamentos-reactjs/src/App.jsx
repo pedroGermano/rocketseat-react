@@ -20,6 +20,7 @@ export function App() {
             author="Diego Feranandes"
             content="lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum"
           />
+
         </main>
       </div>
     </>

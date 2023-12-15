@@ -70,4 +70,21 @@
   border: 0;
   color: var(--gray-400);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: all .2s ease;
+}
+
+.commentBox footer button:hover {
+  color: var(--green-300);
+
+}
+
+.commentBox footer button svg{
+  margin-right: 0.5rem;
+}
+
+.commentBox footer button span::before{
+  content: '\2022';
+  padding: 0 0.25rem;
 }

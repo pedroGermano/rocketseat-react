@@ -18,10 +18,18 @@ export function Post({ author, publishedAt, content }) {
 
   function handleCreateNewComment() {
     event.preventDefault();
-    const newCommentText = event.target.comment.value;
+
+    const newCommentText = event.target.comment.value
     setComments([...comments, newCommentText]);
-    event.target.comment.value = "";
+    // setNewCommentText('')
+    event.target.comment.value = '';
+   
   }
+
+  // function handleNewCommentChange(){
+  //   setNewCommentText(event.target.value)
+  // }
+
 
   return (
     <article className={styles.post}>
